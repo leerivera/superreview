@@ -1,0 +1,21 @@
+h1{
+    color:blue;
+    text-decoration: underline;
+    background: gold;
+}
+
+h2{
+    color: purple;
+    font: 25px;
+    border: solid orange;
+}
+
+section{
+    width: 50%;
+    height: 200px;
+    background: gray;
+    border: solid black;
+}
+p{
+    color: white;
+}
