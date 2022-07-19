@@ -25,4 +25,7 @@ h1.addEventListener('click', addTwo)
 
 function addTwo(){
     // console.log(num + numFromInput)
+    numFromInput += 25
+
+    console.log(num + numFromInput)
 }
