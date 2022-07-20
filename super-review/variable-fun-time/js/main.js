@@ -16,7 +16,7 @@ let numFromInput =Number(document.querySelector('dancdDanceRevolution').value)
 //add 25 to that number
  numFromInput += 25
 //alert that number
-alert(numFromInput)
+// alert(numFromInput)
 //--- Hard
 //create a variable that holds the h1
 const h1 = document.querySelector('h1')
