@@ -1,6 +1,12 @@
 //Create a conditonal that checks their age
 //If under 16, tell them they can not drive
+if(age < 16){
+    console.log("you can't drive")
+}
 //If under 18, tell them they can't hate from outside the club, because they can't even get in
+if(age < 18){
+    console.log("you can hate outside the club")
+}
 //If under 21, tell them they can not drink
 //If under 25, tell them they can not rent cars affordably
 //If under 30, tell them they can not rent fancy cars affordably
