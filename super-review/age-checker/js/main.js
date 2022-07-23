@@ -2,9 +2,11 @@
 //If under 16, tell them they can not drive
 if(age < 16){
     console.log("you can't drive")
+}else if(age < 18){
+    console.log("you can hate outside the club")
 }
 //If under 18, tell them they can't hate from outside the club, because they can't even get in
-if(age < 18){
+else if(age < 18){
     console.log("you can hate outside the club")
 }
 //If under 21, tell them they can not drink
@@ -17,3 +19,7 @@ if(age < 18){
 //On click of the h1
 //Take the value from the input
 //Place the result of the conditional in the paragraph
+document.querySelector('h1').addEventListener('click', checkAge)
+function checkAge(){
+    let age = Number(document.querySelector('input').value)
+}
