@@ -22,4 +22,7 @@ else if(age < 18){
 document.querySelector('h1').addEventListener('click', checkAge)
 function checkAge(){
     let age = Number(document.querySelector('input').value)
+    if(age < 16){
+        package.innerText = 'they can not drive'
+    }
 }
