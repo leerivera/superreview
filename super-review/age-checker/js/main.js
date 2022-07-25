@@ -20,6 +20,7 @@ else if(age < 18){
 //Take the value from the input
 //Place the result of the conditional in the paragraph
 document.querySelector('h1').addEventListener('click', checkAge)
+const p = document.querySelector('p')
 function checkAge(){
     let age = Number(document.querySelector('input').value)
     if(age < 16){
